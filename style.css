@@ -1,0 +1,259 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    display: felx;
+    margin: 0px;
+}
+
+.first {
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 7px
+}
+
+.top-baner {
+    background-image: url(img/dona.jpg);
+    background-repeat: no-repeat;
+    position: right bottom;
+    padding-bottom: 6%;
+    top: 5px;
+    left: 5px;
+}
+
+.second {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#text {
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    flex-direction: row;
+}
+
+.container .box {
+    position: relative;
+    width: 120px;
+    height: 80px;
+    margin: 0px 30px;
+    background-color: rgb(139, 139, 233);
+    font-size: 30px;
+    font-weight: 600;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 241, 241);
+}
+
+.container .box.sadow-1 {
+    box-shadow: 10px 5px 5px rgb(115, 172, 219);
+}
+
+.container .box.sadow-2 {
+    background-color: rgb(231, 111, 68);
+    box-shadow: 10px 5px 5px rgb(115, 172, 219);
+    border: 3px solid orangered;
+}
+
+.container .box.sadow-3 {
+    box-shadow: 10px 5px 5px rgb(115, 172, 219);
+}
+
+.container .box.sadow-4 {
+    box-shadow: 10px 5px 5px rgb(115, 172, 219);
+}
+
+.container .box.sadow-5 {
+    box-shadow: 10px 5px 5px rgb(115, 172, 219);
+}
+
+#horizental-line {
+    width: 800px;
+    height: 2px;
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.Third {
+    text-align: center;
+    padding-top: 120px;
+}
+
+#text-1 {
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+
+.fourth {
+    display: flex;
+    padding-top: 120px;
+}
+
+.box-1-2-3 {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.shadow {
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 3%;
+    padding-left: 8px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(13, 184, 241);
+}
+
+#color-1 {
+    background-color: rgb(179, 228, 211);
+}
+
+#color-2 {
+    background-color: rgb(204, 200, 200);
+}
+
+#color-3 {
+    background-color: rgb(175, 236, 236);
+}
+
+.fifth {
+    display: flex;
+    padding-top: 200px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+#text-2 {
+    font-size: 50px;
+    padding-left: 25px;
+    color: orange;
+    font-weight: 700;
+}
+
+#format {
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.btn {
+    text-decoration: none;
+    margin-left: 30%;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 7px
+}
+
+.full-width {
+    display: flex;
+    padding-top: 140px;
+}
+
+.sixth {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.box-1 {
+    background-color: cornsilk;
+    position: flex;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+#field {
+    background-color: rgb(197, 190, 190);
+    width: 450px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 40px;
+    border-radius: 25px 0 0 25px;
+}
+
+#search {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    left: -5px;
+    background-color: mediumorchid;
+    border: none;
+    outline: none;
+    border-radius: 0 25px 25px 0;
+}
+
+#inside-box {
+    color: orangered;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+#inside-box-1 {
+    color: orange;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+}
+
+.box-2 {
+    background-color: black;
+    position: relative;
+    margin-top: 10%;
+}
